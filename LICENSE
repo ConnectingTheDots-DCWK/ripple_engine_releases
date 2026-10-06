@@ -173,7 +173,9 @@ Agreement at no cost within thirty (30) days of that notice.
       the current release is. It carries no identifier, no version and no
       information about you, and the comparison happens on your machine.
    2. A list of contributors, when you open the About box: a request to
-      GitHub's public API for the people credited in the support repository.
+      ripplefx.app for the people credited in the support repository, which
+      the site answers from GitHub itself. Versions before 1.5 asked GitHub's
+      public API directly.
    3. A crash report, and only if you say so. After a crash, the next launch
       asks whether to send the report it saved, names every file in it and
       says what each one contains. Nothing is sent unless you answer yes to
@@ -187,14 +189,24 @@ Agreement at no cost within thirty (30) days of that notice.
       neither answer preselected. Nothing is sent unless you say yes, the
       setting can be switched off at any time, and switching it off stops
       them at once. No content you author is ever included.
-   5. What the Service needs, if you sign in. Signing in, and anything you
+   5. Engine fixes, unless you switch them off. From version 1.5, once per
+      launch, a request to ripplefx.app asking whether a fix exists for the
+      engine the application is running, carrying that engine's version, its
+      milestone, the platform and an identifier of the interface between
+      the application and its engine, and nothing about you. A fix that
+      exists is downloaded, checked against our signature and used from the
+      next launch. It never changes what the Software can do. Engine
+      updates, under Settings ▸ Updates, switches both requests off.
+   6. What the Service needs, if you sign in. Signing in, and anything you
       then do with the hosted features, goes to our servers under the Terms
       of Service at https://legal.ripplefx.app/terms/. Nothing is sent for
       the Service before you sign in.
-   6. Whatever you send yourself. Version control pushes to a repository you
+   7. Whatever you send yourself. Version control pushes to a repository you
       configured, with credentials you supplied, held in your operating
       system's credential store. Opening documentation or a support page
-      hands a URL to your browser. We are not a party to any of it.
+      hands a URL to your browser — from version 1.5 through a redirect on
+      ripplefx.app, which sees that request and nothing else. We are not a
+      party to anything beyond it.
 
    The Software keeps a session log on your machine. It is not transmitted,
    there is no uploader for it, and it is deleted automatically when a
@@ -303,8 +315,9 @@ Agreement at no cost within thirty (30) days of that notice.
 
 14. UPDATES AND CHANGES TO THIS AGREEMENT
 
-   Updates to the Software are governed by this Agreement unless they are
-   accompanied by different terms.
+   Updates to the Software — including fixes to its engine that the
+   application downloads itself (Article 7) — are governed by this Agreement
+   unless they are accompanied by different terms.
 
    This Agreement is versioned major.minor, and the two halves mean different
    things:
