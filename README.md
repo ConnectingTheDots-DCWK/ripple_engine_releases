@@ -43,10 +43,25 @@ marked as a pre-release and is never offered to an installed app.
 
 ## Licence
 
-The engine is proprietary, like the application it is part of, and governed by
-the [End-User Licence Agreement](LICENSE) — the authoritative copy is at
-[legal.ripplefx.app](https://legal.ripplefx.app/eula/). Questions about it:
-legal@ripplefx.app.
+The engine is proprietary, and the releases here are licensed under the
+**[Runtime Licence](https://legal.ripplefx.app/runtime/)** — written for
+building it into your own software and shipping it:
+
+- **free and royalty-free**, for any product, commercial or not;
+- **redistributed unmodified and as part of your product**, never on its own;
+- its `NOTICE` reproduced wherever your product lists the third-party software
+  it uses — the only credit asked for;
+- your own users bound to terms at least as protective of the engine as yours.
+
+**A release keeps the licence it was published under.** A product you shipped
+with one release is never re-licensed under you; a later version of the
+licence governs later releases only. Bindings that call the engine may carry
+any licence — this project's are MIT — while the engine they carry stays under
+the Runtime Licence. [LICENSE](LICENSE) points at it rather than copying it.
+
+The authoring application is a different licence, the
+[End-User Licence Agreement](https://legal.ripplefx.app/eula/), and the engine
+inside it is the application's. Questions about either: legal@ripplefx.app.
 
 © 2026 ConnectingTheDots — a trade name of William Karol Di Cioccio, VAT
 IT02224180667. All rights reserved.
