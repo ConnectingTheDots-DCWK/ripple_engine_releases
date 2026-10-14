@@ -1,18 +1,18 @@
-Ripple Effect — End-User Licence Agreement
-Version 1.0 (English). Effective 15 October 2026.
+Ripple Effect Engine — proprietary software
+Copyright © 2026 William Karol Di Cioccio, trading as ConnectingTheDots.
+All rights reserved.
 
-This file is a copy of the Ripple Effect End-User Licence Agreement, version
-1.0, kept here so that a checkout has the terms without needing a network.
-The authoritative copy is published at
+The engine releases published here are licensed under the Ripple Effect
+Runtime Licence, which lets you build the engine into your own software and
+redistribute it, unmodified and as part of your product, free of charge:
 
-    https://legal.ripplefx.app/v/eula-1.0/
+    https://legal.ripplefx.app/runtime/
 
-and the text at that address never changes. Where this file and that page
-differ, the page is right. The current version of the Agreement — which may
-by now be a later one — is at https://legal.ripplefx.app/eula/.
+Each engine release is governed by the version of that licence current when
+the release was published, and keeps it. Every version is at its own
+permanent address under https://legal.ripplefx.app/v/.
 
-This Agreement replaces the Ripple Effect Licence, the short notice this file
-used to carry.
+Nothing in this repository grants any licence beyond that document.
 
 --------------------------------------------------------------------------
 
