@@ -8,7 +8,7 @@ is private and lives elsewhere.
 | I want to… | Go here |
 | --- | --- |
 | Use Ripple Effect | [Download the app](https://ripplefx.app/download) — it bundles the engine, and updates it |
-| Report something broken | [Support](https://github.com/WilliamKarolDiCioccio/ripple_effect_support) |
+| Report something broken | [Support](https://github.com/ConnectingTheDots-DCWK/ripple_effect_support) |
 
 Nobody needs to download anything from here by hand. The app bundles the
 engine and can take a fix to it in the background; the build tooling for the
